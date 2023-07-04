@@ -1,0 +1,47 @@
+* , html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: aqua;
+}
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 50px ;
+}
+.row {
+    width: 100%;
+
+}
+.row input {
+    cursor: pointer;
+    color: blueviolet;
+    width: 80px;
+    text-align: center;
+    height: 80px;
+    font-size: 20px;
+    background-color: whitesmoke;
+}
+.row input:hover {
+    background-color: white;
+}
+.result {
+    margin: 20px 0;
+    font-size: 35px;
+}
+.reset {
+    width: 50px;
+    margin: auto;
+    border: 1px solid black;
+    background-color: white;
+    font-size: 20px;
+    padding: 10px 7px;
+}
+
